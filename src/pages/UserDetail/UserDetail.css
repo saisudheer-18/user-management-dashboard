@@ -1,0 +1,63 @@
+.user-detail {
+  width: 100%;
+}
+
+/* 🔥 CENTER EVERYTHING PROPERLY */
+.detail-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* BACK BUTTON */
+.back-btn {
+  margin-bottom: 20px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #3b82f6;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.back-btn:hover {
+  background: #2563eb;
+}
+
+/* CARD */
+.user-card {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  transition: 0.2s;
+}
+
+.user-card:hover {
+  transform: translateY(-4px);
+}
+
+/* NAME */
+.name {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* INFO TEXT */
+.info p {
+  margin-bottom: 8px;
+  color: #374151;
+  line-height: 1.5;
+}
+
+/* SECTIONS */
+.section {
+  margin-top: 20px;
+}
+
+.section h3 {
+  margin-bottom: 6px;
+  font-size: 18px;
+  color: #1f2937;
+}

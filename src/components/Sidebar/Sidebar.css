@@ -1,0 +1,38 @@
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background: linear-gradient(180deg, #1e293b, #0f172a);
+  color: white;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+}
+
+/* Logo */
+.logo {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+/* Nav */
+.nav a {
+  display: block;
+  padding: 12px;
+  border-radius: 8px;
+  color: #cbd5f5;
+  text-decoration: none;
+  margin-bottom: 10px;
+  transition: 0.2s;
+}
+
+/* Hover */
+.nav a:hover {
+  background: #334155;
+  color: white;
+}
+
+/* Active */
+.nav a.active {
+  background: #3b82f6;
+  color: white;
+}

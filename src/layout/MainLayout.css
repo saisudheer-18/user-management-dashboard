@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Content */
+.content {
+  flex: 1;
+  padding: 40px;
+  background: #f1f5f9;
+}

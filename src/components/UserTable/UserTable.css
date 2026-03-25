@@ -1,0 +1,86 @@
+/* CONTAINER */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+/* TABLE */
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+/* HEADER */
+.user-table th {
+  background: #3b82f6;
+  color: white;
+  padding: 14px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* CELLS */
+.user-table td {
+  padding: 14px 12px;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 14px;
+
+  /* 🔥 better text behavior */
+  overflow-wrap: break-word;
+}
+
+/* ROW */
+.row {
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+/* HOVER */
+.row:hover {
+  background: #f8fafc;
+}
+
+/* STRIPED */
+.user-table tbody tr:nth-child(even) {
+  background: #fafafa;
+}
+
+/* NAME (FIXED — no oversized look) */
+.name {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* PHONE (no break) */
+.nowrap {
+  white-space: nowrap;
+}
+
+/* 🔥 BETTER COLUMN BALANCE */
+.user-table th:nth-child(1),
+.user-table td:nth-child(1) {
+  width: 25%;
+}
+
+.user-table th:nth-child(2),
+.user-table td:nth-child(2) {
+  width: 30%;
+}
+
+.user-table th:nth-child(3),
+.user-table td:nth-child(3) {
+  width: 20%;
+}
+
+.user-table th:nth-child(4),
+.user-table td:nth-child(4) {
+  width: 25%;
+}
+
+/* EMPTY */
+.empty {
+  text-align: center;
+  padding: 20px;
+}
